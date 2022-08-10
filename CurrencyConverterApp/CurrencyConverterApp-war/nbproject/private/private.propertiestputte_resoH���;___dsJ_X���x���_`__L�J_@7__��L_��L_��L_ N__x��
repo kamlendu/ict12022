@@ -1,0 +1,11 @@
+deploy.ant.properties.file=/root/.netbeans/dev/config/GlassFishEE6/Properties/gfv3-1087865706.properties
+j2ee.platform.is.jsr109=true
+j2ee.server.domain=/usr/local/glassfish5/glassfish/domains/domain1
+j2ee.server.home=/usr/local/glassfish5/glassfish
+j2ee.server.instance=[/usr/local/glassfish5/glassfish:/usr/local/glassfish5/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848
+j2ee.server.middleware=/usr/local/glassfish5
+javac.debug=true
+javadoc.preview=true
+jaxbwiz.endorsed.dirs=/usr/local/netbeans-6.8/ide12/modules/ext/jaxb/api
+selected.browser=default
+user.properties.file=/root/.netbeans/dev/build.properties
