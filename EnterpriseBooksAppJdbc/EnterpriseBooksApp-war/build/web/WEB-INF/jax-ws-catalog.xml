@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/BookOperationService/BookOperation?wsdl" uri="src/conf/xml-resources/web-service-references/BookOperation/wsdl/localhost_8080/BookOperationService/BookOperation.wsdl"/>
+    <system systemId="http://localhost:8080/BookOperationService/BookOperation?xsd=1" uri="src/conf/xml-resources/web-service-references/BookOperation/wsdl/localhost_8080/BookOperationService/BookOperation.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/BookServiceService/BookService?wsdl" uri="src/conf/xml-resources/web-service-references/BookService/wsdl/localhost_8080/BookServiceService/BookService.wsdl"/>
+    <system systemId="http://localhost:8080/BookServiceService/BookService?xsd=1" uri="src/conf/xml-resources/web-service-references/BookService/wsdl/localhost_8080/BookServiceService/BookService.xsd_1.xsd"/>
+    <system systemId="https://localhost:8181/MyBookServiceService/MyBookService" uri="src/conf/xml-resources/web-service-references/MyBookService/wsdl/localhost_8181/MyBookServiceService/MyBookService"/>
+    <system systemId="https://kamlendu-laptop:8181/MyBookServiceService/MyBookService?wsdl" uri="src/conf/xml-resources/web-service-references/MyBookService/wsdl/kamlendu-laptop_8181/MyBookServiceService/MyBookService.wsdl"/>
+    <system systemId="https://localhost:8181/MyBookServiceService/MyBookService?wsdl" uri="src/conf/xml-resources/web-service-references/MyBookService/wsdl/localhost_8181/MyBookServiceService/MyBookService.wsdl"/>
+    <system systemId="http://localhost:8080/MyBookServiceService/MyBookService?wsdl" uri="src/conf/xml-resources/web-service-references/MyBookService/wsdl/localhost_8080/MyBookServiceService/MyBookService.wsdl"/>
+    <system systemId="http://localhost:8080/MyBookServiceService/MyBookService?xsd=1" uri="src/conf/xml-resources/web-service-references/MyBookService/wsdl/localhost_8080/MyBookServiceService/MyBookService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/BookBeanBeanService/BookBeanBean?wsdl" uri="wsdl/localhost_8080/BookBeanBeanService/BookBeanBean.wsdl"/>
+    <system systemId="http://localhost:8080/BookBeanBeanService/BookBeanBean?xsd=1" uri="wsdl/localhost_8080/BookBeanBeanService/BookBeanBean.xsd_1.xsd"/>
+</catalog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

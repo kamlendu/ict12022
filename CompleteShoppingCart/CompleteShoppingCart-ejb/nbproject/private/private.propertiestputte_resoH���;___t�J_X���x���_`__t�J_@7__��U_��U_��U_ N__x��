@@ -1,0 +1,9 @@
+deploy.ant.properties.file=/root/.netbeans/dev/config/GlassFishEE6/Properties/gfv31084562720.properties
+j2ee.platform.is.jsr109=true
+j2ee.server.domain=/usr/local/payara5/glassfish/domains/domain1
+j2ee.server.home=/usr/local/payara5/glassfish
+j2ee.server.instance=[/usr/local/payara5/glassfish:/usr/local/payara5/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848
+j2ee.server.middleware=/usr/local/payara5
+javac.debug=true
+javadoc.preview=true
+netbeans.user=/root/.netbeans/dev
