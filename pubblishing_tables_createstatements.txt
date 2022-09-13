@@ -1,0 +1,48 @@
+CREATE TABLE `customer` (
+  `CustomerID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `FirstName` varchar(50) NOT NULL,
+  `LastName` varchar(50) NOT NULL,
+  PRIMARY KEY (`CustomerID`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `address` (
+  `AddressId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Street` varchar(80) NOT NULL,
+  `City` varchar(50) NOT NULL,
+  `State` varchar(50) NOT NULL,
+  `Zip` varchar(10) NOT NULL,
+  `CustomerId` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`AddressId`),
+  KEY `fkcustadd` (`CustomerId`),
+  CONSTRAINT `fkcustadd` FOREIGN KEY (`CustomerId`) REFERENCES `customer` (`CustomerID`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `subscription` (
+  `SubscriptionId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Title` varchar(45) NOT NULL,
+  `Type` varchar(45) NOT NULL,
+  PRIMARY KEY (`SubscriptionId`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `cust_subs` (
+  `CustomerId` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `SubscriptionId` int(10) unsigned NOT NULL,
+  KEY `fk_cust_custsubs` (`CustomerId`),
+  KEY `fk_subs_custsubs` (`SubscriptionId`),
+  CONSTRAINT `fk_cust_custsubs` FOREIGN KEY (`CustomerId`) REFERENCES `customer` (`CustomerID`),
+  CONSTRAINT `fk_subs_custsubs` FOREIGN KEY (`SubscriptionId`) REFERENCES `subscription` (`SubscriptionId`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+
+
+
+Data 
+
+
+
+
+
+
