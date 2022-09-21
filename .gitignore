@@ -43,3 +43,6 @@
 /wsapp/PublishingApp/build/
 /wsapp/PublishingApp/dist/
 /wsapp/PublishingApp/nbproject/private/
+/SampleRestApp/nbproject/private/
+/SampleRestApp/build/
+/SampleRestApp/dist/
