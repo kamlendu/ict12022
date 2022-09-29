@@ -70,8 +70,8 @@ public class RestPublishServlet extends HttpServlet {
 //          pb.addAddressOfCustomer("C-101", "Indore", "MP","543210", "11");
 //            pb.addAddressOfCustomer("Downing Street", "Old Delhi", "Delhi","1110110", "11");
 //        
-            Collection<Integer> ids = new ArrayList<>();
-            ids.add(1);ids.add(2);ids.add(3);
+//            Collection<Integer> ids = new ArrayList<>();
+//            ids.add(1);ids.add(2);ids.add(3);
             
             //pb.addSubscriptionsToCustomers(ids, "11");
           //  pb.removeSubscriptionsToCustomers(ids, "11");
@@ -79,7 +79,7 @@ public class RestPublishServlet extends HttpServlet {
 //            pb.removeAddressOfCustomer("11", "11");
 //             pb.removeAddressOfCustomer("12", "11");
 
-                pb.removeCustomer("11");
+              //  pb.removeCustomer("11");
             
             rs = pb.getAllCustomers(Response.class);
             customers = rs.readEntity(gcustomers);
@@ -90,6 +90,7 @@ public class RestPublishServlet extends HttpServlet {
                 
                 rs = pb.getAddressesOfCustomer(Response.class, c.getCustomerID().toString());
                 addresses  = rs.readEntity(gaddresses);
+               // rs.readEntity(gaddresses);
                 for(Address a : addresses)
                 {
                 out.println("<br/>id = "+ a.getAddressId()+ " street: "+ a.getStreet()+ " city : "+ a.getCity()+ " state : "+ a.getState());

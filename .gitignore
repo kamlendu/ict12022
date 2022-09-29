@@ -49,3 +49,6 @@
 /restapp/PublishingApp/build/
 /restapp/PublishingApp/dist/
 /restapp/PublishingApp/nbproject/private/
+/SecurityApp/nbproject/private/
+/SecurityApp/build/
+/SecurityApp/dist/
