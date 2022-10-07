@@ -79,3 +79,9 @@
 /javaee8openidsecurity/RestPublishApp/build/
 /javaee8openidsecurity/RestPublishApp/dist/
 /javaee8openidsecurity/RestPublishApp/nbproject/private/
+/SecurityWithHttpAuth (copy)/SecurityApp/build/
+/SecurityWithHttpAuth (copy)/SecurityApp/dist/
+/SecurityWithHttpAuth (copy)/SecurityApp/nbproject/private/
+/SecurityWithHttpAuth-SSL/SecurityApp/build/
+/SecurityWithHttpAuth-SSL/SecurityApp/dist/
+/SecurityWithHttpAuth-SSL/SecurityApp/nbproject/private/
