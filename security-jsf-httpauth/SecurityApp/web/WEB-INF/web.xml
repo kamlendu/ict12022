@@ -10,17 +10,17 @@
         </session-timeout>
     </session-config>
     
- <security-constraint> 
-     <web-resource-collection>
+<!--     <security-constraint> 
+    <web-resource-collection>
         <web-resource-name>all</web-resource-name>
         <url-pattern>/*</url-pattern>
-     </web-resource-collection>
+    </web-resource-collection>
     <user-data-constraint>
         <transport-guarantee>CONFIDENTIAL</transport-guarantee>
     </user-data-constraint>
-</security-constraint>
+</security-constraint>-->
 
- <error-page>
+<error-page>
         <error-code>401</error-code>
         <location>/error/401.jsp</location>
     </error-page>

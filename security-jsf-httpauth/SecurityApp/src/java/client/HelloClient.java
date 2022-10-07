@@ -24,7 +24,7 @@ public class HelloClient {
 
     private WebTarget webTarget;
     private Client client;
-    private static final String BASE_URI = "https://localhost:8181/SecurityApp/webresources";
+    private static final String BASE_URI = "http://localhost:8080/SecurityApp/webresources";
 
     public HelloClient() {
         client = javax.ws.rs.client.ClientBuilder.newClient();
@@ -33,23 +33,6 @@ public class HelloClient {
 //                .queryParam("password", password);
     }
 
-    
-    static {
-        //for localhost testing only
-        javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier(
-                new javax.net.ssl.HostnameVerifier() {
-
-            public boolean verify(String hostname,
-                    javax.net.ssl.SSLSession sslSession) {
-                if (hostname.equals("localhost")) {
-                    return true;
-                }
-                return false;
-            }
-        });
-    }
-    
-    
     public String speakHello() throws ClientErrorException {
         WebTarget resource = webTarget;
         return resource.request(javax.ws.rs.core.MediaType.TEXT_HTML).get(String.class);
