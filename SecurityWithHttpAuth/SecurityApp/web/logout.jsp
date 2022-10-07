@@ -15,11 +15,11 @@
     </head>
     <body>
         <%
-        request.logout();
-        session.invalidate();
+//        request.logout();
+//        session.invalidate();
         
       // request.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
-        response.sendRedirect("index.jsp");
+       // response.sendRedirect("index.jsp");
         %>
     </body>
 </html>

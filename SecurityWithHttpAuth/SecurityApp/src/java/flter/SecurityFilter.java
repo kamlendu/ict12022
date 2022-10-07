@@ -29,7 +29,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author root
  */
-@WebFilter(filterName = "SecurityFilter", urlPatterns = {"/*"})
+//@WebFilter(filterName = "SecurityFilter", urlPatterns = {"/*"})
 public class SecurityFilter implements Filter {
     
     @Inject SecurityContext ctx;

@@ -49,10 +49,10 @@ public class SecureServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             
-            String username = request.getSession().getAttribute("username").toString();
-            String password = request.getSession().getAttribute("password").toString();
-            
-            cl = new HelloClient(username,password);
+//            String username = request.getSession().getAttribute("username").toString();
+//            String password = request.getSession().getAttribute("password").toString();
+//            
+            cl = new HelloClient();
             
             out.println("<h1>EJB Says : " + cl.speakHello() + "</h1>");
             out.println("</body>");

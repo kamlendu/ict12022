@@ -26,11 +26,11 @@ public class HelloClient {
     private Client client;
     private static final String BASE_URI = "http://localhost:8080/SecurityApp/webresources";
 
-    public HelloClient(String username, String password) {
+    public HelloClient() {
         client = javax.ws.rs.client.ClientBuilder.newClient();
-        webTarget = client.target(BASE_URI).path("test")
-                .queryParam("username", username)
-                .queryParam("password", password);
+        webTarget = client.target(BASE_URI).path("test");
+//                .queryParam("username", username)
+//                .queryParam("password", password);
     }
 
     public String speakHello() throws ClientErrorException {

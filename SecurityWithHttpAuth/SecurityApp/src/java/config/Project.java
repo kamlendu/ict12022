@@ -23,11 +23,11 @@ import javax.security.enterprise.identitystore.Pbkdf2PasswordHash;
 //        )
 //)
 
-@CustomFormAuthenticationMechanismDefinition(
-        loginToContinue = @LoginToContinue(
-                loginPage = "/index.jsp"
-        )
-)
+//@CustomFormAuthenticationMechanismDefinition(
+//        loginToContinue = @LoginToContinue(
+//                loginPage = "/index.jsp"
+//        )
+//)
 
 // Identity Store
 @DatabaseIdentityStoreDefinition(
