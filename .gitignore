@@ -85,3 +85,6 @@
 /SecurityWithHttpAuth-SSL/SecurityApp/build/
 /SecurityWithHttpAuth-SSL/SecurityApp/dist/
 /SecurityWithHttpAuth-SSL/SecurityApp/nbproject/private/
+/SecureTrialJWT/build/
+/SecureTrialJWT/dist/
+/SecureTrialJWT/nbproject/private/
