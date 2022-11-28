@@ -88,3 +88,12 @@
 /SecureTrialJWT/build/
 /SecureTrialJWT/dist/
 /SecureTrialJWT/nbproject/private/
+/TransformApp/nbproject/private/
+/TransformApp/build/
+/TransformApp/dist/
+/jsf-security/jsf-jwt-security-html-login/SecureJSFApp/build/
+/jsf-security/jsf-jwt-security-html-login/SecureJSFApp/dist/
+/jsf-security/jsf-jwt-security-html-login/SecureJSFApp/nbproject/private/
+/jsf-security/jsf-jwt-security-jsflogin/SecureJSFApp/build/
+/jsf-security/jsf-jwt-security-jsflogin/SecureJSFApp/dist/
+/jsf-security/jsf-jwt-security-jsflogin/SecureJSFApp/nbproject/private/

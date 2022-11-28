@@ -5,14 +5,19 @@
  */
 package record;
 
+import java.io.Serializable;
 import java.util.Set;
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Named;
 import javax.security.enterprise.CallerPrincipal;
 
 /**
  *
  * @author root
  */
-public class KeepRecord {
+@Named
+@SessionScoped
+public class KeepRecord implements Serializable {
     
     private static CallerPrincipal principal;
    private static Set<String> roles;

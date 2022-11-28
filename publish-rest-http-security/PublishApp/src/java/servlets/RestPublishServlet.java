@@ -59,8 +59,8 @@ public class RestPublishServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             
-            String username = request.getSession().getAttribute("username").toString();
-            String password = request.getSession().getAttribute("password").toString();
+//            String username = request.getSession().getAttribute("username").toString();
+//            String password = request.getSession().getAttribute("password").toString();
             
             
             pbl = new PublishClient();
